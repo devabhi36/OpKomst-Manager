@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="15dp"
+    tools:context=".Student.TimeTableFragment"
+    app:cardElevation="15dp"
+    app:cardCornerRadius="15dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/monday"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="MONDAY"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/buttonbackground"
+            android:layout_marginTop="5dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mondayList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            android:id="@+id/tuesday"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="TUESDAY"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/buttonbackground"
+            android:layout_marginTop="25dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/tuesdayList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            android:id="@+id/wednesday"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="WEDNESDAY"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/buttonbackground"
+            android:layout_marginTop="25dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/wednesdayList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            />
+
+        <Button
+            android:id="@+id/thursday"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="THURSDAY"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/buttonbackground"
+            android:layout_marginTop="25dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/thursdayList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            android:id="@+id/friday"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="FRIDAY"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/buttonbackground"
+            android:layout_marginTop="25dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/fridayList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            android:id="@+id/saturday"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="SATURDAY"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@drawable/buttonbackground"
+            android:layout_marginTop="25dp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/saturdayList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"/>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+</androidx.cardview.widget.CardView>

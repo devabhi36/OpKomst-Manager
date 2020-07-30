@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_subjects"
+            android:title="@string/menu_subjects"/>
+        <item
+            android:id="@+id/nav_chats"
+            android:title="@string/menu_chats" />
+        <item
+            android:id="@+id/nav_timetable"
+            android:title="@string/menu_timetable" />
+        <item
+            android:id="@+id/nav_result"
+            android:title="@string/menu_result" />
+        <item
+            android:id="@+id/nav_notice"
+            android:title="@string/menu_notice" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:title="@string/menu_feedback" />
+    </group>
+</menu>
